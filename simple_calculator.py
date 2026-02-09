@@ -7,8 +7,8 @@ class Calculator:
         return x * y
     def divide(self, x, y):
         return x / y
-    def modulo(self, a, b):
-        return a % b
+    def modulo(self, x, y):
+        return x % y
     def power(self, x, y):
         return x ** y
 if __name__ == "__main__":
