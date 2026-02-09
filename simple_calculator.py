@@ -9,8 +9,8 @@ class Calculator:
         return x / y
     def modulo(self, a, b):
         return a % b
-    def power(self, a, b):
-        return a ** b
+    def power(self, x, y):
+        return x ** y
 if __name__ == "__main__":
     calc = Calculator()
     print("Addition: ", calc.add(10, 5))
